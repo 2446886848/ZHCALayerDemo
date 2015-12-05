@@ -39,6 +39,30 @@
     cubeCellEntity.destinationVc = @"CubeViewController";
     [self.cellEntities addObject:cubeCellEntity];
     
+    //bezier rect
+    CellEntity *BezierRectCellEntity = [[CellEntity alloc] init];
+    BezierRectCellEntity.title = @"BezierRect";
+    BezierRectCellEntity.destinationVc = @"BezierRectController";
+    [self.cellEntities addObject:BezierRectCellEntity];
+    
+    //attribute string
+    CellEntity *attributeStringCellEntity = [[CellEntity alloc] init];
+    attributeStringCellEntity.title = @"attribute string";
+    attributeStringCellEntity.destinationVc = @"AttributeTextController";
+    [self.cellEntities addObject:attributeStringCellEntity];
+    
+    //attribute string
+    CellEntity *gradientCellEntity = [[CellEntity alloc] init];
+    gradientCellEntity.title = @"gradient layer";
+    gradientCellEntity.destinationVc = @"GradientLayerController";
+    [self.cellEntities addObject:gradientCellEntity];
+    
+    //attribute string
+    CellEntity *replicatorCellEntity = [[CellEntity alloc] init];
+    replicatorCellEntity.title = @"replicator layer";
+    replicatorCellEntity.destinationVc = @"ReplicatorLayerController";
+    [self.cellEntities addObject:replicatorCellEntity];
+    
     [self.tableView reloadData];
 }
 #pragma mark - tableViewDelegate

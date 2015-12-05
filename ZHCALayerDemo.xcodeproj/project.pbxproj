@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC233A011C12DB17003AC392 /* GradientLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC233A001C12DB17003AC392 /* GradientLayerController.m */; };
+		FC233A041C12E50A003AC392 /* ReplicatorLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC233A031C12E50A003AC392 /* ReplicatorLayerController.m */; };
 		FC564D431C1173CE00010EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC564D421C1173CE00010EDA /* main.m */; };
 		FC564D461C1173CE00010EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC564D451C1173CE00010EDA /* AppDelegate.m */; };
 		FC564D491C1173CE00010EDA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC564D481C1173CE00010EDA /* ViewController.m */; };
@@ -15,9 +17,16 @@
 		FC564D511C1173CE00010EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC564D4F1C1173CE00010EDA /* LaunchScreen.storyboard */; };
 		FC564D5A1C117A1600010EDA /* CellEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = FC564D591C117A1600010EDA /* CellEntity.m */; };
 		FC564D5E1C117B0400010EDA /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC564D5D1C117B0400010EDA /* CubeViewController.m */; };
+		FCAE6F321C12980E004CD2D1 /* BezierRectController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE6F311C12980E004CD2D1 /* BezierRectController.m */; };
+		FCAE6F351C12A7BD004CD2D1 /* AttributeTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAE6F341C12A7BD004CD2D1 /* AttributeTextController.m */; };
+		FCAE6F371C12A9BA004CD2D1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAE6F361C12A9BA004CD2D1 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC2339FF1C12DB17003AC392 /* GradientLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLayerController.h; sourceTree = "<group>"; };
+		FC233A001C12DB17003AC392 /* GradientLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLayerController.m; sourceTree = "<group>"; };
+		FC233A021C12E50A003AC392 /* ReplicatorLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorLayerController.h; sourceTree = "<group>"; };
+		FC233A031C12E50A003AC392 /* ReplicatorLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorLayerController.m; sourceTree = "<group>"; };
 		FC564D3E1C1173CE00010EDA /* ZHCALayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHCALayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC564D421C1173CE00010EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC564D441C1173CE00010EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,6 +41,11 @@
 		FC564D591C117A1600010EDA /* CellEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellEntity.m; sourceTree = "<group>"; };
 		FC564D5C1C117B0400010EDA /* CubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
 		FC564D5D1C117B0400010EDA /* CubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
+		FCAE6F301C12980E004CD2D1 /* BezierRectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierRectController.h; sourceTree = "<group>"; };
+		FCAE6F311C12980E004CD2D1 /* BezierRectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierRectController.m; sourceTree = "<group>"; };
+		FCAE6F331C12A7BD004CD2D1 /* AttributeTextController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributeTextController.h; sourceTree = "<group>"; };
+		FCAE6F341C12A7BD004CD2D1 /* AttributeTextController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributeTextController.m; sourceTree = "<group>"; };
+		FCAE6F361C12A9BA004CD2D1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAE6F371C12A9BA004CD2D1 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +63,7 @@
 		FC564D351C1173CE00010EDA = {
 			isa = PBXGroup;
 			children = (
+				FCAE6F361C12A9BA004CD2D1 /* CoreText.framework */,
 				FC564D401C1173CE00010EDA /* CALayerDemo */,
 				FC564D3F1C1173CE00010EDA /* Products */,
 			);
@@ -64,18 +80,16 @@
 		FC564D401C1173CE00010EDA /* CALayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCAE6F2C1C12862E004CD2D1 /* Entities */,
+				FCAE6F2B1C128625004CD2D1 /* Views */,
 				FC564D5B1C117AEE00010EDA /* Controllers */,
 				FC564D441C1173CE00010EDA /* AppDelegate.h */,
 				FC564D451C1173CE00010EDA /* AppDelegate.m */,
-				FC564D471C1173CE00010EDA /* ViewController.h */,
-				FC564D481C1173CE00010EDA /* ViewController.m */,
 				FC564D4A1C1173CE00010EDA /* Main.storyboard */,
 				FC564D4D1C1173CE00010EDA /* Assets.xcassets */,
 				FC564D4F1C1173CE00010EDA /* LaunchScreen.storyboard */,
 				FC564D521C1173CE00010EDA /* Info.plist */,
 				FC564D411C1173CE00010EDA /* Supporting Files */,
-				FC564D581C117A1600010EDA /* CellEntity.h */,
-				FC564D591C117A1600010EDA /* CellEntity.m */,
 			);
 			path = CALayerDemo;
 			sourceTree = "<group>";
@@ -91,10 +105,36 @@
 		FC564D5B1C117AEE00010EDA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FC564D471C1173CE00010EDA /* ViewController.h */,
+				FC564D481C1173CE00010EDA /* ViewController.m */,
 				FC564D5C1C117B0400010EDA /* CubeViewController.h */,
 				FC564D5D1C117B0400010EDA /* CubeViewController.m */,
+				FCAE6F301C12980E004CD2D1 /* BezierRectController.h */,
+				FCAE6F311C12980E004CD2D1 /* BezierRectController.m */,
+				FCAE6F331C12A7BD004CD2D1 /* AttributeTextController.h */,
+				FCAE6F341C12A7BD004CD2D1 /* AttributeTextController.m */,
+				FC2339FF1C12DB17003AC392 /* GradientLayerController.h */,
+				FC233A001C12DB17003AC392 /* GradientLayerController.m */,
+				FC233A021C12E50A003AC392 /* ReplicatorLayerController.h */,
+				FC233A031C12E50A003AC392 /* ReplicatorLayerController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FCAE6F2B1C128625004CD2D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FCAE6F2C1C12862E004CD2D1 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				FC564D581C117A1600010EDA /* CellEntity.h */,
+				FC564D591C117A1600010EDA /* CellEntity.m */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,8 +207,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAE6F321C12980E004CD2D1 /* BezierRectController.m in Sources */,
 				FC564D5A1C117A1600010EDA /* CellEntity.m in Sources */,
 				FC564D491C1173CE00010EDA /* ViewController.m in Sources */,
+				FC233A011C12DB17003AC392 /* GradientLayerController.m in Sources */,
+				FC233A041C12E50A003AC392 /* ReplicatorLayerController.m in Sources */,
+				FCAE6F351C12A7BD004CD2D1 /* AttributeTextController.m in Sources */,
 				FC564D5E1C117B0400010EDA /* CubeViewController.m in Sources */,
 				FC564D461C1173CE00010EDA /* AppDelegate.m in Sources */,
 				FC564D431C1173CE00010EDA /* main.m in Sources */,
@@ -320,6 +364,7 @@
 				FC564D571C1173CE00010EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
